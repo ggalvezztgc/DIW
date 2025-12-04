@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  background: #0e0e10; /* negro twitch */
+  font-family: Arial, sans-serif;
+}
+
+/* Panel principal */
+.panel {
+  width: 260px;
+  background: #1f2126;
+  color: white;
+  margin: 30px auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Barra superior */
+.top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px;
+  background: #191a1f;
+}
+
+.logo {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  background: #7a3cff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.titulo {
+  font-size: 22px;
+  margin: 0;
+  flex: 1; /* para que el botón se vaya a la derecha */
+}
+
+.boton {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Subtítulo */
+.subtop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+}
+
+.subtitulo {
+  margin: 0;
+  font-size: 16px;
+}
+
+.botonPeq {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Lista de canales */
+.lista {
+  padding: 0 8px 10px 8px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.item:hover {
+  background: #2a2d33;
+}
+
+/* Avatar simple */
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #3a3d46;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+/* Info */
+.info {
+  flex: 1;
+}
+
+.nombre {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.categoria {
+  color: #a7a7b0;
+  font-size: 14px;
+}
+
+/* Directo */
+.directo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.punto {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: red;
+}
+
+.viewers {
+  font-weight: bold;
+}
+
+/* Footer */
+.footer {
+  padding: 12px;
+  font-size: 14px;
+  color: #a7a7b0;
+}
